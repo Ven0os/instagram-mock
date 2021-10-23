@@ -207,7 +207,6 @@ a {
 div {
   align-items: stretch;
   border: 0 solid #000;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
