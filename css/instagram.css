@@ -1,0 +1,336 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+/* Taille considerer par rapport a la bordure de l'element */
+
+body,
+input,
+button,
+p,
+a,
+footer {
+  color: #262626;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+main,
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 1.5rem;
+}
+
+.container {
+  position: relative;
+  width: 348px;
+  margin: auto;
+}
+
+.Instagram {
+  display: flex;
+  background: no-repeat url("Photos/instagramfont.png");
+  align-items: center;
+  justify-content: center;
+}
+.endroitlog {
+  background: #fafafa;
+  border: 0;
+  flex: 1 0 auto;
+  margin: 0;
+  outline: 0;
+  overflow: hidden;
+  padding: 9px 0 7px 8px;
+  text-overflow: ellipsis;
+}
+
+.logininsta {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 359.5px;
+  width: 100%;
+  line-height: 1.1em;
+  background-color: #fff;
+  border: 1px solid #dbdbdb;
+  border-radius: 1px;
+  margin: 0 0 10px;
+  padding: 10px 0;
+}
+
+/*Label*/
+
+.form {
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  -webkit-appearance: none;
+  background: #fafafa;
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
+  box-sizing: border-box;
+  color: #262626;
+  display: flex;
+  flex-direction: row;
+  font-size: 14px;
+  position: relative;
+  margin-top: 5.5px;
+  width: 268px;
+}
+
+.inside {
+  display: flex;
+  height: 36px;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 0 0;
+  -ms-flex: 1 0 0;
+  flex: 1 0 0;
+  padding: 0;
+  position: relative;
+  margin: 0;
+  min-width: 0;
+}
+
+.userinfo {
+  background: #fafafa;
+  border: 0;
+  flex: 1 0 auto;
+  margin: 0;
+  outline: 0;
+  overflow: hidden;
+  padding: 9px 0 7px 8px;
+  text-overflow: ellipsis;
+}
+
+/*Border + contenue*/
+
+.botinsta {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 61px;
+  width: 100%;
+  background-color: #fff;
+  border: 1px solid #dbdbdb;
+  border-radius: 1px;
+  margin: 0 0 10px;
+  padding: 10px 0;
+}
+
+.contenuelogininsta {
+  color: #262626;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  justify-content: center;
+  margin-top: 12px;
+  max-width: 350px;
+}
+
+/*Assets genre ou ext..*/
+
+.mdp {
+  font-size: 12px;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  display: flex;
+  color: #385185;
+  margin: 10px 40px 18px;
+}
+
+.ou {
+  display: flex;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  flex-direction: row;
+  margin: 10px 40px 18px;
+  color: #8e8e8e;
+  font-size: 13px;
+}
+
+.barre {
+  display: flex;
+  background-color: #dbdbdb;
+  height: 1px;
+  justify-content: center;
+  margin: auto 6px;
+  width: 100px;
+}
+
+.fblog {
+  color: #385185;
+  display: flex;
+  flex-direction: row;
+}
+/*Lien couleur bleu FB*/
+
+.fblog a {
+  color: #385185;
+  display: flex;
+}
+
+.logofb {
+  background-repeat: no-repeat;
+  height: 16px;
+  width: 16px;
+  flex-grow: 1;
+}
+
+article {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 5px;
+  flex-flow: column;
+}
+
+a {
+  color: #0095f6;
+}
+
+div {
+  align-items: stretch;
+  border: 0 solid #000;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  margin: 0;
+  margin-right: 0px;
+  margin-left: 0px;
+  padding: 0;
+  position: relative;
+}
+
+.connect {
+  height: 30px;
+  width: 270px;
+  background-color: #0095f6;
+  color: white;
+  margin-top: 15.5px;
+  border: 1px solid transparent;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+/*Bas de page*/
+
+.botpage {
+  color: black;
+  font-size: 14px;
+  line-height: 18px;
+  margin: 10px 20px 10px 20px;
+  text-align: center;
+  position: relative;
+  height: 25px;
+}
+
+.googleandapp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  gap: 0.5rem;
+  flex-direction: row;
+}
+
+.googleandapp img {
+  width: 100%;
+  height: auto;
+}
+
+.link-footer {
+  max-width: 810px;
+  display: flex;
+  flex-flow: row wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.footer {
+  color: #8e8e8e;
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+/* Carousel Insta CSS */
+
+.carouselcontainer {
+  position: relative;
+  width: 454px;
+  height: 100%;
+  box-shadow: 0.5px;
+}
+
+.carouselbg {
+  width: 97%;
+  height: auto;
+  object-fit: contain;
+}
+
+#carousel {
+  width: 237px;
+  height: 418px;
+  overflow: hidden;
+  position: absolute;
+  top: 95px;
+  left: 144px;
+}
+
+#carousel a img {
+  padding: 10px;
+  border: 1px solid #ccc;
+  background: #fff;
+}
+
+#carousel a:nth-of-type(1) {
+  animation-name: fader;
+  animation-delay: 3s;
+  animation-duration: 0.4s;
+  z-index: 20;
+}
+#carousel a:nth-of-type(2) {
+  z-index: 10;
+}
+#carousel a:nth-of-type(n + 3) {
+  display: none;
+}
+
+@keyframes fader {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0.44;
+  }
+}
+
+/* Media queries responsive problème */
+
+@media screen and (max-width: 768px) {
+  .carouselcontainer {
+    display: none;
+  }
+
+  .logininsta,
+  .botinsta {
+    border: none;
+  }
+
+  /* Enlever le carousel a 768 px et moins */
+}
