@@ -228,6 +228,7 @@ div {
   border: 1px solid transparent;
   border-radius: 7px;
   cursor: pointer;
+  font-weight: 700;
 }
 
 /*Bas de page*/
@@ -295,13 +296,13 @@ footer {
   position: relative;
   width: 454px;
   height: 100%;
-  box-shadow: 0.5px;
 }
 
 .carouselbg {
   width: 97%;
   height: auto;
   object-fit: contain;
+  margin-left: 35px;
 }
 
 #carousel {
@@ -310,7 +311,7 @@ footer {
   overflow: hidden;
   position: absolute;
   top: 95px;
-  left: 144px;
+  left: 179px;
 }
 
 #carousel a img {
