@@ -5,6 +5,8 @@
 }
 /* Taille considerer par rapport a la bordure de l'element */
 
+/* Corps du site */
+
 body,
 input,
 button,
@@ -183,6 +185,8 @@ footer {
   width: 16px;
   flex-grow: 1;
 }
+
+/* Gestion de la page */
 
 article {
   display: flex;
