@@ -16,6 +16,9 @@ footer {
   font-size: 14px;
   line-height: 18px;
 }
+a {
+  text-decoration: none;
+}
 
 body {
   display: grid;
@@ -75,7 +78,6 @@ footer {
   align-items: center;
   justify-content: center;
   align-content: center;
-  -webkit-appearance: none;
   background: #fafafa;
   border: 1px solid #dbdbdb;
   border-radius: 3px;
@@ -92,9 +94,6 @@ footer {
 .inside {
   display: flex;
   height: 36px;
-  -webkit-box-flex: 1;
-  -webkit-flex: 1 0 0;
-  -ms-flex: 1 0 0;
   flex: 1 0 0;
   padding: 0;
   position: relative;
@@ -130,9 +129,6 @@ footer {
 
 .contenuelogininsta {
   color: #262626;
-  -webkit-box-flex: 1;
-  -webkit-flex-grow: 1;
-  -ms-flex-positive: 1;
   flex-grow: 1;
   justify-content: center;
   margin-top: 12px;
@@ -145,6 +141,7 @@ footer {
   font-size: 12px;
   font-family: "Roboto", Helvetica, Arial, sans-serif;
   display: flex;
+  cursor: pointer;
   color: #385185;
   margin: 10px 40px 18px;
 }
@@ -177,6 +174,7 @@ footer {
 .fblog a {
   color: #385185;
   display: flex;
+  text-decoration: none;
 }
 
 .logofb {
