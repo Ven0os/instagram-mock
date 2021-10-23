@@ -345,6 +345,10 @@ footer {
 /* Media queries responsive problème */
 
 @media screen and (max-width: 768px) {
+  body {
+    background-color: white;
+  }
+
   .carouselcontainer {
     display: none;
   }
