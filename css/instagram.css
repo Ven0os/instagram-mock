@@ -91,7 +91,7 @@ footer {
   color: #262626;
   display: flex;
   flex-direction: row;
-  font-size: 14px;
+  font-size: 12px;
   position: relative;
   margin-top: 5.5px;
   width: 268px;
@@ -116,6 +116,7 @@ footer {
   overflow: hidden;
   padding: 9px 0 7px 8px;
   text-overflow: ellipsis;
+  font-size: 12px;
 }
 
 /*Border + contenue*/
